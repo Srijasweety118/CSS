@@ -1,0 +1,39 @@
+#n{
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    height: 40px;
+    background-color: aquamarine;
+}
+#n li a{
+
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+}
+#n a:hover{
+    color: blue;
+    background-color: skyblue;
+    text-decoration: underline;
+}
+#b{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    width: 200px;
+    background-color:lightcoral;
+}
+#b li a{
+    color: blue;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+
+}
+#b a:hover{
+color: blue;
+background-color: aquamarine;
+text-decoration: underline  ;
+}

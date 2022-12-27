@@ -1,0 +1,31 @@
+main #b{
+    width: 80%;
+    float: left;
+    
+    
+}
+#b article{
+    width: 40%;
+    float: left;
+}
+aside {
+    width: 40%;
+    float: right;
+    
+}
+main #a{
+    width: 80%;
+    float: left;
+
+}
+ article{
+    width: 40%;
+    float: left;
+    
+
+}
+aside #a img{
+    width: 40%;
+    float: right;
+    
+}

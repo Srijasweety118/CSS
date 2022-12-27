@@ -1,0 +1,13 @@
+ body
+{
+    background-image: url(./images/calendar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     padding-top: 250px;
+     padding-bottom: 100px;
+} 
+tr{
+    background-image: url();
+ background-repeat:repeat;
+ padding: 0px 0px 10px 0px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#one{
+    margin: 1px solid green;
+    width: 900px;
+    height: 100vh;
+    position:fixed ;
+    font-size: 0px;
+}
+
+#a.header::after{
+float: left;
+text-align: center;
+}
+#h{
+    margin-left: 350px;
+    width: 900px;
+    font-size: 20px;
+    border: 3px solid green;
+}
+#i{
+    margin-left: 359px;
+    width: 900px;
+    font-size: 20px;
+    border: 3px solid red;
+}
+#j{
+    margin-left: 350px;
+    width: 900px;
+    font-size: 20px;
+    border: 3px solid blue;
+}
+#k{
+    margin-left: 350px;
+    width: 900px;
+    font-size: 20px;
+    border: 3px solid orange;
+}

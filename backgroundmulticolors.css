@@ -1,0 +1,6 @@
+body
+{
+    background-image: conic-gradient(skyblue,red,blue,green,violet);
+    background-repeat: repeat;
+    background-size: cover;
+}

@@ -1,0 +1,71 @@
+nav{
+    background-color :rgb(104, 172, 187) ;
+    width: 100%;
+    height: 100px;
+    color: whitesmoke;
+   align-items: right;
+
+}
+header .menu{
+    margin-left: 700px;
+}
+header .menu a{
+     margin-top: 200px;
+     padding: 30px;
+     margin-bottom: 200px;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    text-align: center;
+    padding-top:  100px;
+    font-size: large;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+}
+a:hover{
+    background-color: rgb(104, 172, 187);
+    text-decoration: underline;
+}
+a:active{
+    color: red;
+}
+#one{
+    text-align: center;
+    padding-top:80px;
+    line-height: 50px;
+}
+#two{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+#three{
+    font-size: 60px;
+    padding-right: 50px;
+    color: blueviolet;
+}
+#four{
+font-size: 40px;
+color: green;
+}
+ .change_content::after{
+content: "";
+animation:changetext 10s infinite linear;
+color: green;
+}
+@keyframes changetext{
+    0%{ color: green; font-size: 70px; content: "KERALA";}
+    10%{ color: red; content: "AGRA";}
+    20%{ color: darkorange; content: "DELHI";}
+    40%{ color: darkgreen; content: "MUMBAI"}
+    60%{color: darkgoldenrod; content: "CHENNAI";}
+    70%{color: BROWN; content: "GOA";}
+}
+

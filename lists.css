@@ -1,0 +1,29 @@
+ ul li::before
+{
+    content: "\2665"; 
+    color: red;
+    margin: 4px;
+}
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: georgian;
+}
+a:link{
+    color: black;
+}
+a:active{
+    color: chartreuse;
+}
+a:visited{
+    color: darkmagenta;
+}
+a:hover{
+    color:green;
+    background-color: yellow;
+    padding: 20px;
+    text-decoration: none;
+    border: 4px solid black;
+
+}

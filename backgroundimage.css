@@ -1,0 +1,7 @@
+body{
+    background-image: url(./images/download\ \(2\).jpg),url(./images/download\ \(1\).jpg), url(./images/images.jpg),url(./images/download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 1000px;
+    background-position: 0px 0px,350px 0px,700px 0px,1050px 0px ;
+    background-attachment: fixed;
+}

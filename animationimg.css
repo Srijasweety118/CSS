@@ -1,0 +1,36 @@
+h1{
+ animation-name: khaja;
+ animation-duration: 7s;
+ animation-iteration-count: infinite;
+ text-align: center;
+ width: 150px;
+height: auto;
+}
+#a{
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+}
+#b{
+    animation-timing-function: linear;
+    animation-duration:alternate;
+    animation-fill-mode: forwards;
+}
+#c{
+    animation-timing-function: ease-in;
+    animation-duration: reverse;
+    animation-fill-mode: backwards;
+}
+#d{
+    animation-timing-function: ease-out;
+    animation-duration: alternate-reverse;
+    animation-fill-mode: both;
+}
+#e{
+    animation-timing-function: ease-in-out;
+}
+@keyframes khaja{
+    from{margin-left: 100%; background-color: red;}
+    to{margin-left: 0%; background-color: blue;}
+}

@@ -1,0 +1,47 @@
+/* horizantal */
+
+#a{
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    height: 40px;
+    background-color: pink;
+}
+#a li a{
+
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+}
+#a a:hover{
+    color: blue;
+    background-color: skyblue;
+    text-decoration: underline;
+
+}
+/* vartical */
+#b{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    width: 200px;
+    background-color:skyblue;
+}
+#b li a{
+    color: blue;
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+
+
+}
+#b a:hover{
+color: blue;
+background-color: aquamarine;
+text-decoration: underline  ;
+}
+i{
+margin-right: 15px;
+}

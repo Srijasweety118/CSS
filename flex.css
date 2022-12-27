@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;   
+    text-decoration-style: dashed;
+}
+tr{
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   border-radius: 15px;
+}
+nav{
+    background-color: darkslategray;
+    display: flex;  
+    font-size: 24px;
+    align-items: center;  
+    justify-content: space-evenly; 
+}
+nav a{
+    color: white;
+}
+h3{
+    border: 1px solid white;
+    border-radius: 18px;
+    color: white;
+    border-width: 1px;
+    font-size: 30px;
+}
+h1{
+    display: flex;
+padding-left: 50px;
+}
+.one  img{
+    border-radius: 2000px;
+    width: 130px;
+    height: 130px;
+}
+.two{
+margin-left: 70px;
+}
+.b{
+    padding-top: 140px;
+    position: absolute;
+    margin-left: -110px;
+}
+.three{
+    margin-left: 70px;
+    }
+    .c{
+        padding-top: 140px;
+        position: absolute;
+        margin-left: -110px;
+    }
+ .four{
+  margin-left: 70px;
+        }
+ .d{
+    padding-top: 140px;
+          position: absolute;
+            margin-left: -90px;
+        }
+        .five{
+            margin-left: 70px;
+            }
+            .e{
+                padding-top: 140px;
+                position: absolute;
+                margin-left: -110px;
+            }
+            .six{
+                margin-left: 70px;
+                }
+                .f{
+                    padding-top: 140px;
+                    position: absolute;
+                    margin-left: -123px;
+                }
+                .seven{
+                    margin-left: 70px;
+                    }
+                    .g{
+                        padding-top: 140px;
+                        position: absolute;
+                        margin-left: -100px;
+                    }
+.child{
+    background-color: lightgrey;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.child  img {
+    align-items: flex-start;
+    border-radius: 2px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.child h2 
+{
+    border: 1px solid red;
+}
+h2 a{
+    font-size: 20px;
+    padding-left: 100px;
+
+}

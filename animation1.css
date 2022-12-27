@@ -1,0 +1,38 @@
+h1{
+    animation-name: text;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+    width: 300px;
+    height:60px;
+    text-align: center;
+}
+#one{
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+#two{
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+#three{
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+#four
+{
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+}
+#five
+{
+    animation-timing-function: ease-in-out;
+}
+@keyframes text{
+    from{margin-left: 60%; background-color:red;}
+    to{margin-left: 0%; background-color: blue;}
+}

@@ -1,0 +1,19 @@
+p
+{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: calc();
+    color:blue;
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 4px 5px brown;
+    text-indent: 300px;
+    text-size-adjust: 20px;
+    text-decoration-color: red;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    
+}

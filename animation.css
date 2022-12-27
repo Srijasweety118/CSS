@@ -1,0 +1,27 @@
+#demo
+{
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#x
+{
+    color: blue;
+    text-align: center; 
+}
+#y
+{
+    color: red;
+    text-align: center;
+}
+@keyframes colors
+{
+    5%{ padding-top: 10%; font-size: 20px;  background-color: red; }
+    10%{padding-top: 20%; font-size: 30px;  background-color: blue;}
+    15%{padding-top: 25%;font-size: 40px;  background-color: green;}
+    20%{padding-top: 30%;font-size: 50px;  background-color: yellow;}
+    25%{padding-left: 20%;font-size: 60px;  background-color: aqua;}
+    30%{padding-right: 30%;font-size: 70px;  background-color: blueviolet;}
+    35%{padding-bottom: 40%;font-size: 80px;  background-color:brown;}
+    
+}
